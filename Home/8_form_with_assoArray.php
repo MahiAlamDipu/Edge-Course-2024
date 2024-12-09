@@ -20,8 +20,8 @@ $name = array(
     "Rahi" => "Thakur"
 );
 
-$The_search_value = $_POST["username"] ?? '';  // post ekta array
-if (!empty($The_search_value)) {
+$The_search_value = $_POST["username"] ?? '';  // post ekta associative array
+
     echo "The place where {$The_search_value} belongs is {$name[$The_search_value]}";
-}
+
 ?>
